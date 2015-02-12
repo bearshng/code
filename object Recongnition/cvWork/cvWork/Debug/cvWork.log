@@ -1,0 +1,35 @@
+﻿生成启动时间为 2015/2/4 14:53:31。
+     1>项目“D:\workspaces\vs2013\cvWork\cvWork\cvWork.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing cvwork.h...
+         Uic'ing cvwork.ui...
+         Rcc'ing cvwork.qrc...
+     1>RCC : warning : No resources in 'D:\workspaces\vs2013\cvWork\cvWork\cvwork.qrc'.
+         
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_cvwork.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_cvwork.cpp, GeneratedFiles\Release\moc_cvwork.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.0\5.3\msvc2013_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.3.0\5.3\msvc2013_opengl\include\QtCore /IC:\Qt\Qt5.3.0\5.3\msvc2013_opengl\include\QtGui /IC:\Qt\Qt5.3.0\5.3\msvc2013_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt buildVocabolary.cpp cvwork.cpp GeneratedFiles\Debug\moc_cvwork.cpp main.cpp svmTrain.cpp predictUtil.cpp
+         buildVocabolary.cpp
+         cvwork.cpp
+         moc_cvwork.cpp
+         main.cpp
+         svmTrain.cpp
+         predictUtil.cpp
+         正在生成代码...
+     1>d:\workspaces\vs2013\cvwork\cvwork\predictutil.cpp(138): warning C4715: “MyObjectPredictor::getObjectType”: 不是所有的控件路径都返回值
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.0\5.3\msvc2013_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.3.0\5.3\msvc2013_opengl\include\QtCore /IC:\Qt\Qt5.3.0\5.3\msvc2013_opengl\include\QtGui /IC:\Qt\Qt5.3.0\5.3\msvc2013_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_cvwork.cpp
+         qrc_cvwork.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workspaces\vs2013\cvWork\Win32\Debug\\cvWork.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.3.0\5.3\msvc2013_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib opencv_calib3d248d.lib opencv_contrib248d.lib opencv_core248d.lib opencv_features2d248d.lib opencv_flann248d.lib opencv_gpu248d.lib opencv_highgui248d.lib opencv_imgproc248d.lib opencv_legacy248d.lib opencv_ml248d.lib opencv_nonfree248d.lib opencv_objdetect248d.lib opencv_ocl248d.lib opencv_photo248d.lib opencv_stitching248d.lib opencv_superres248d.lib opencv_ts248d.lib opencv_video248d.lib opencv_videostab248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\workspaces\vs2013\cvWork\Win32\Debug\cvWork.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workspaces\vs2013\cvWork\Win32\Debug\cvWork.lib" /MACHINE:X86 /SAFESEH Debug\buildVocabolary.obj
+         Debug\cvwork.obj
+         Debug\moc_cvwork.obj
+         Debug\qrc_cvwork.obj
+         Debug\main.obj
+         Debug\svmTrain.obj
+         Debug\predictUtil.obj
+         cvWork.vcxproj -> D:\workspaces\vs2013\cvWork\Win32\Debug\cvWork.exe
+     1>已完成生成项目“D:\workspaces\vs2013\cvWork\cvWork\cvWork.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.11
